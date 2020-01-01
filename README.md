@@ -1,2 +1,2 @@
 # Momentum_Clone
-Momoentum App Clone 
+Momentum Clone made with VanillaJS
