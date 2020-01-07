@@ -64,7 +64,7 @@ function loadToDos(){
 
 function init(){
     loadToDos();
-    toDoForm.addEventListener("submit",handleSubmit)
+    toDoForm.addEventListener("submit",handleSubmit);
 }
 
 init();

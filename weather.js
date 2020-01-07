@@ -28,7 +28,7 @@ function handleGeoSuccess(position){
         longitude
     }
     saveCoords(coordsObj);
-    getWeather(latitude,longitude)
+    getWeather(latitude,longitude);
 }
 
 function handleGeoError(){
@@ -51,7 +51,7 @@ function loadCoords(){
 }
 
 function init(){
- loadCoords()
+ loadCoords();
 }
 
 init();
